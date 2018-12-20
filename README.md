@@ -1,13 +1,21 @@
-# 1071-G12--
-123456789
-#include <stdio.h>
+1071-G12
 
-int main(){
-	int sec;
-	int hh,mm,ss;
-	scanf("%d",&sec);
-	hh = sec/3600;
-	mm = sec%3600/60;
-	ss = sec%60;
-	printf("%d sec = %02d:%02d:%02d\n", sec,hh,mm,ss);
-}
+期末 Project
+
+題目 : 電話簿
+
+謝慧臻 負責 function
+
+查詢(Search)
+
+修改(Modify)
+
+清空(Clear)
+
+周子善 負責 function
+
+新增(Insert)
+
+刪除(Delete)
+
+顯示(PrintList)
